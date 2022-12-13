@@ -51,4 +51,4 @@ his project is based on "Motivate" data, a Bikeshare system used in some of the 
 
 ### Credits
 
-I watched a video in youtube by Cameron McKinzie https://youtu.be/XTolZqmZq6s
+I watched a video in youtube by Cameron McKinzie https://youtu.be/XTolZqmZq6s ..

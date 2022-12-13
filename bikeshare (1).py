@@ -42,7 +42,7 @@ def get_filters():
     while True:
         day = input("\nDo you want details specific to a particular day? If yes, type day name else type 'all'\n").title()
         if day not in ('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'All'):
-            print("invalid input. Please enter a valid input")
+            print("please try agin ")
             continue
         else:
             break

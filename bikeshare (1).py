@@ -22,7 +22,7 @@ def get_filters():
     while True:
         city = input("\n Which cities date would you like to explore ? \n").title()
         if city not in CITY_DATA.keys():
-            print("invalid input. Please enter a valid input")
+            print("please try agin") 
             continue
         else:
             break
@@ -38,6 +38,9 @@ def get_filters():
             break
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+
+
+
 
     while True:
         day = input("\nDo you want details specific to a particular day? If yes, type day name else type 'all'\n").title()
@@ -246,7 +249,8 @@ def main():
         U_stats(df)
         show_data(df)
         
- 
+ #when you want restart the program 
+
         restart = input('\n Would you like to restart? Enter Yes or No.\n').title()
         if restart.title() != 'Yes':
             break
